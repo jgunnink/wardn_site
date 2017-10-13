@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.wardn.com.au/"
+baseURL = "https://jgunnink.github.io/wardn/"
 languageCode = "en-AU"
 title = "A new breed of Managed Security"
 

@@ -1,0 +1,107 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.wardn.com.au/"
+languageCode = "en-AU"
+title = "A new breed of Managed Security"
+
+# Metadata
+[params]
+  author = "Your name"
+  description = "Cool description"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "A new breed of Managed Security"
+  description = "We offer specialist data protection services and advice to organisations, service providers and vendors of all sizes throughout Australia and New Zealand"
+
+# Navigation section
+[params.nav]
+  services = "Managed Data Loss Prevention"
+  #cas = "Cloud Access Security"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  logo = "images/wardn_logo_450.png"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Managed Data Loss Prevention"
+  description = "From the experience of thousands of hours designing, optimising and running the most complex DLP environments, a new breed of managed services has been developed to lead organisations into newfound levels of capability and maturity."
+
+  [[params.services.item]]
+    icon = "icon-dollar"
+    title = "Cost Effective"
+    description = "Pay only for what you need. Modular service offerings and our commitment to automation makes us not only the leaders in services, but also the best value."
+
+  [[params.services.item]]
+    icon = "icon-cog"
+    title = "Automated"
+    description = "Underpinned by the custom-built WARDN virtual appliance, we deliver consistent quality service, to on-premise and cloud hosted environments at any scale."
+
+  [[params.services.item]]
+    icon = "icon-magic"
+    title = "Orchestration"
+    description = "Leveraging proven automation frameworks to produce tailored processes and workflows that transform how security teams respond to breaches."
+
+  [[params.services.item]]
+    icon = "icon-lock"
+    title = "Secure"
+    description = "Our passion is protecting the data of organisations and their customers, which means we must also protect ourselves. It is at the forefront of everything we do."
+
+# Work section
+
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.team.item]]
+    name = "Jean Doe"
+    position = "Chief legend"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person1.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "Alice Doe"
+    position = "Chief overlord"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person2.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "John Doe"
+    position = "Chief haranguer"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    img = "images/person3.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; Copyright Wardn 2017</small></p>"
+  linkedin = "https://www.linkedin.com/company/18186200/"
+  
